@@ -1,9 +1,9 @@
 <?php
-$number1 = rand(1,1000);
-$number2 = rand(1,1000);
-$number3 = rand(1,1000);
+// $number1 = rand(1,1000);
+// $number2 = rand(1,1000);
+// $number3 = rand(1,1000);
 
-function addition($number1, $number2, $number3)
+function addition($number1 = 1, $number2 = 1, $number3 = 1)
 {
     return 'La somme est de '. $number1 + $number2 + $number3;
 }
@@ -41,9 +41,8 @@ function addition($number1, $number2, $number3)
         <hr>
         <!-- Réponse -->
         <div class="text-center ">
-            <p><?= 'Les nombres sont : '. $number1 .', '.$number2 .', '.$number3;?></p>
             <p>
-                <?= addition($number1, $number2, $number3) ?>
+                <?= addition() ?>
             </p>
         </div>
 

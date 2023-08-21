@@ -1,14 +1,14 @@
 <?php
-$firstNumber = 35580;
-$secondNumber = 580;
+$firstNumber = rand(0,5);
+$secondNumber = rand(0,5);
 function compareFunction($firstNumber, $secondNumber)
 {
     if ($firstNumber > $secondNumber) {
-        echo 'Le premier nombre est plus grand ';
+        return 'Le premier nombre est plus grand ';
     } elseif ($firstNumber < $secondNumber) {
-        echo 'Le premier nombre est plus petit ';
+        return 'Le premier nombre est plus petit ';
     } else {
-        echo 'Egalité';
+        return 'Egalité';
     }
     ;
 }

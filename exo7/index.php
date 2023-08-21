@@ -8,7 +8,7 @@ function situation($gender, $age)
     } elseif (($gender === 'Femme') && ($age >= 18)) {
         return 'Vous êtes une Femme et vous êtes majeur ';
     } else {
-        return 'Vous êtes une Femme et vous êtes mineur ';
+        return 'Vous êtes une Femme et vous êtes mineure ';
     }
     
 }
